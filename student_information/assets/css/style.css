@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 10px;
+}
+.varStyle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar-nav li {
+    list-style: none;
+}
+.navbar-nav li a:hover {
+    background: #009688;
+    color: white;
+    box-shadow: 0 1px 10px #009688d9;
+}
+.navbar-nav li a {
+    text-decoration: none;
+    color: rgb(128, 109, 109);
+    font-family: sans-serif;
+    padding: 10px 15px;
+    transition: all .3s;
+    border-radius: 8px;
+}
+.buttonStyle .btnStyle1 {
+    background: #0cdada;
+    padding: 10px 10px;
+    color: black;
+    border-radius: 8px;
+    margin: 0 10px 0 0;
+}
+.buttonStyle a {
+    text-decoration: none;
+}
+.buttonStyle .btnStyle2 {
+    background: #009688;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 8px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-header h4 {
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+.card-header {
+    background: #9fc3e3;
+    width: 100%;
+    text-align: center;
+}
+.card-body {
+    background: #64819b;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+.card-footer {
+    background: #7eabd3;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 0 0 6px 6px;
+}
+.submit_btnstyle {
+    padding: 8px 15px;
+    background: cyan;
+    border: navajowhite;
+    box-shadow: 0 1px 1px black;
+    border-radius: 6px;
+}
+.tableSection {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+.tableSection tbody tr td {
+    padding: 5px 10px;
+}
+.tableSection thead tr th {
+    padding: 8px 10px;
+}
+.tableSection thead tr th, tbody tr td {
+    border: 1px solid;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+    color: red;
+}
+.formGroup {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0 25px;
+}
+.tableStyle thead tr th {
+    border: 1px solid;
+}
+.tableStyle {
+    text-align: center;
+}
+.tableStyle thead {
+    background: #87efff;
+}
+.tableStyle tbody {
+    background: #009688;
+    color: white;
+}
